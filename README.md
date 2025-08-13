@@ -1,10 +1,14 @@
-# Tauri + Vue + TypeScript
+# Proyecto: KAIROS
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<div class="logo">
+    <img height="100" width="500" alt="Logo de Kevin (kents)" src="./src/assets/logo_app.svg" />
+</div>
 
-## Recommended IDE Setup
+## Acerca del proyecto
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Este es un proyecto que se presenta como proyecto aplicado.
+
+Busca desarrollar un sistema de gestión diseñado específicamente para consultorios odontológicos de pequeña a mediana escala, con el fin de ofrecer una alternativa más accesible y adaptable en comparación con las soluciones comerciales actuales. Se ha identificado que los sistemas existentes presentan barreras significativas para odontólogos que anteriormente trabajaban con registros en papel, debido a su interfaz compleja, exceso de opciones y alta curva de aprendizaje. Este software busca reducir dichas barreras con un diseño más intuitivo, modular e independiente, asegurando que cada módulo funcione de manera autónoma sin afectar el rendimiento general del sistema.
 
 # License
 
@@ -13,3 +17,12 @@ You may use, copy, modify, and share this software for **non-commercial** purpos
 Commercial use is strictly prohibited without prior written permission.
 
 © 2025 Kevin Santiago Hernández Escobar (kents)
+
+<style>
+    .logo{
+        background-color: rebeccapurple;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+</style>
