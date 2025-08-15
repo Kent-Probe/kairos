@@ -1,0 +1,114 @@
+:root {
+  /* Primary color */
+  --bulma-primary-h: 250deg;
+  --bulma-primary-s: 39%;
+  --bulma-primary-l: 56%;
+
+  /* Secundary color */
+  --bulma-secundary-h: 217deg;
+  --bulma-secundary-s: 83%;
+  --bulma-secundary-l: 93%;
+
+  /* Tertiary Color */
+  --bulma-secundary-h: 233deg;
+  --bulma-secundary-s: 53%;
+  --bulma-secundary-l: 97%;
+
+  /* Cuartenary Color */
+  --bulma-secundary-h: 185deg;
+  --bulma-secundary-s: 29%;
+  --bulma-secundary-l: 92%;
+
+  /* Graph Color */
+  --bulma-secundary-h: 246deg;
+  --bulma-secundary-s: 42%;
+  --bulma-secundary-l: 67%;
+
+  /* Disables Color */
+  --bulma-disabled-h: 236deg;
+  --bulma-disabled-s: 48%;
+  --bulma-disabled-l: 82%;
+
+  /* Link color */
+  --bulma-link-h: 233deg;
+  --bulma-link-s: 100%;
+  --bulma-link-l: 63%;
+
+  /* Success color */
+  --bulma-success-h: 153deg;
+  --bulma-success-s: 53%;
+  --bulma-success-l: 53%;
+
+  /* Warning color */
+  --bulma-warning-h: 42deg;
+  --bulma-warning-s: 100%;
+  --bulma-warning-l: 53%;
+
+  /* Danger color */
+  --bulma-danger-h: 348deg;
+  --bulma-danger-s: 100%;
+  --bulma-danger-l: 70%;
+}
+
+[data-theme="dark"] {
+}
+
+.button.is-primary {
+  background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l));
+  color: white;
+
+  &:hover {
+    background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), calc(var(--bulma-primary-l) - 10%));
+  }
+}
+
+.button.is-secundary {
+  background-color: hsl(var(--bulma-secundary-h), var(--bulma-secundary-s), var(--bulma-secundary-l));
+  color: #2a2c23;
+
+  &:hover {
+    background-color: hsl(var(--bulma-secundary-h), var(--bulma-secundary-s), calc(var(--bulma-secundary-l) - 10%));
+  }
+}
+
+.button.is-tertiary {
+  background-color: hsl(var(--bulma-tertiary-h), var(--bulma-tertiary-s), var(--bulma-tertiary-l));
+  color: #2a2c23;
+
+  &:hover {
+    background-color: hsl(var(--bulma-tertiary-h), var(--bulma-tertiary-s), calc(var(--bulma-tertiary-l) - 10%));
+  }
+}
+
+.button.is-cuartenary {
+  background-color: hsl(var(--bulma-cuartenary-h), var(--bulma-cuartenary-s), var(--bulma-cuartenary-l));
+  color: #2a2c23;
+
+  &:hover {
+    background-color: hsl(var(--bulma-cuartenary-h), var(--bulma-cuartenary-s), calc(var(--bulma-cuartenary-l) - 10%));
+  }
+}
+
+.button.is-disabled {
+  background-color: hsl(var(--bulma-disabled-h), var(--bulma-disabled-s), var(--bulma-disabled-l));
+  color: #9e9edb;
+
+  opacity: 1;
+}
+
+.button.is-text {
+  color: hsl(250deg, 39%, 55%);
+
+  &:hover {
+    color: hsl(250deg, 39%, calc(55% - 20%));
+  }
+}
+
+body,
+html,
+#app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
